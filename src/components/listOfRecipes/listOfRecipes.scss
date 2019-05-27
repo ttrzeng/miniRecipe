@@ -1,6 +1,14 @@
 #ListOfRecipes {
   overflow-y: auto;
 
+  .checkIcon {
+    position: relative;
+    top: 35px;
+    font-size: 25px;
+    left: 40%;
+    color: #19f319;
+  }
+
   .recipeItem {
     border: 1px solid grey;
     margin: 10px;
@@ -19,6 +27,6 @@
   }
 
   .recipeDetails {
-    padding: 10px;
+    padding: 15px;
   }
 }
