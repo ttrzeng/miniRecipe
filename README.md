@@ -1,8 +1,6 @@
 
 ## Mini Recipes app
 
-## Available Scripts
-
 In the project directory, first run:
 
 ## `npm install`
