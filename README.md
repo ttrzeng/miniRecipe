@@ -1,15 +1,13 @@
 
 ## Mini Recipes app
 
-In the project directory, first run:
+In the project directory, first run to install dependencies:
 
-## `npm install`
+### `npm install`
 
-Once you got all the dependencies installed, run:
+Once you got all the dependencies installed, run in your local directory to run the app locally:
 
 ### `npm start`
-
-in your local directory to run the app locally.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
