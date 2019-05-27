@@ -38,7 +38,7 @@ function RecipeDetails() {
           </ul>
           <Button
             shape="round"
-            size="small"
+            size="large"
             icon="left-circle"
             onClick={() => goBack()}>Back</Button>
         </div>

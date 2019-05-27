@@ -19,7 +19,7 @@ function ListOfRecipes() {
       const [showIngredientsBtn, setShowIngredientsBtn] = useState(false);
       const [selectedRecipeList, setSelectedRecipeList] = useState('');
       const [listOfIngredients, setListOfIngredients] = useState([]);
-      const [ingredients, setIngredients] = useGlobal('ingredients');
+      const [, setIngredients] = useGlobal('ingredients');
 
       useEffect(() => {
         setShowIngredientsBtn(selectedRecipeList.length !== 0);
@@ -45,7 +45,7 @@ function ListOfRecipes() {
                   return (
                     <div className="recipeItem"
                          key={index}
-                         
+
                          onClick={() => getRecipeIngredients(recipe)}>
                       <Row>
                         <Col span={6}>
